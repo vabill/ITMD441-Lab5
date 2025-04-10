@@ -1,0 +1,47 @@
+html {
+    background-color: #c5c3c6;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#body {
+    text-align: center;
+    margin: 0 auto;
+    width: 850px;
+}
+
+form {
+    background-color: #dcdcdd;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+form p {
+    font-size: 20px;
+    line-height: 0px;
+    padding-bottom: 20px;
+}
+
+.tipCalc {
+    width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.row label {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.row input, .row select {
+    width: 200px;
+    padding: 5px;
+}
