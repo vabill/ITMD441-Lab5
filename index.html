@@ -7,9 +7,28 @@
 </head>
 
 <body>
+    <p>ITMD 441 - Alastyr Bill</p>
     <h1>Tip Calculator</h1>
     <form id="tip-calc" method="get" action="#null">
         <p>Currency Conversion:</p>
-        <p>$1 USD = €0.95</p>
+        <p>$1 USD = €0.95 EUR for EUROS</p>
+        <p>$1 USD = ₹85 INR for Rupees</p>
+        <label for="baseTotal">Bill Total: $</label>
+        <input type="text" id="baseTotal" name="baseTotal">
+        <label for="baseTax">Total Bill with Tax (11%):</label>
+        <input type="text" id="baseTax" name="baseTax" readonly>
+        <label for="currency">Select Currency:</label>
+        <select id="currency" name="currency">
+            <option value="USD">US Dollars ($)</option>
+            <option value="EUR">EUROS (€)</option>
+            <option value="INR">Rupees (₹)</option>
+        </select>
+        <label for="baseTip">Tip:</label>
+        <input type="range" id="baseTip" name="baseTip" min="0" max="50">
+        <label for="tipConverted">Converted Tip Amount:</label>
+        <input type="text" for="tipConverted" id="tipConverted" name="tipConverted" readonly>
+        <label for="finalTotal">Converted Total with Tip and Tax:</label>
+        <input for="text" for="finalTotal" id="finaltTotal" name="finalTotal" readonly>
     </form>
 </body>
+</html>
