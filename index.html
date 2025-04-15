@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tip Calculator</title>
   <link rel="stylesheet" media="screen" href="css/styles.css">
-  <script async src="js/script.js"></script>
+  <script src="js/site.js"></script>
 </head>
 
 <body>
@@ -21,6 +21,7 @@
             <label for="baseTotal">Bill Total: $</label>
             <input type="text" id="baseTotal" name="baseTotal">
             </div>
+            <p id="error">Please enter a valid, non-negative number.</p>
 
             <div class="row">
             <label for="baseTax">Total Bill with Tax (11%):</label>
@@ -48,7 +49,7 @@
 
             <div class="row">
             <label for="finalTotal">Converted Total with Tip and Tax:</label>
-            <input for="text" for="finalTotal" id="finaltTotal" name="finalTotal" readonly>
+            <input type="text" for="finalTotal" id="finalTotal" name="finalTotal" readonly>
             </div>
         </form>
     </section>

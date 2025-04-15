@@ -45,3 +45,8 @@ form p {
     width: 200px;
     padding: 5px;
 }
+
+#error {
+    color: red;
+    display: none;
+}
