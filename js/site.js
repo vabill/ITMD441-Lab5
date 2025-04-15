@@ -6,6 +6,7 @@
     const tipConverted = document.getElementById("tipConverted");
     const finalTotal = document.getElementById("finalTotal");
     const errorMsg = document.getElementById("error");
+    const tipDisplay = document.getElementById("tipDisplay");
 
     const currencyRates = {
         USD: 1,
@@ -17,6 +18,8 @@
         let bill = parseFloat(billInput.value);
         let tipPercent = parseInt(tipSlider.value);
         let selectedCurrency = currencySelect.value;
+
+        tipDisplay.textContent = tipPercent + "%";
     
 
         if (isNaN(bill) || bill < 0) {
