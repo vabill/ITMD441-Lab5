@@ -50,3 +50,9 @@ form p {
     color: red;
     display: none;
 }
+
+#tipDisplay {
+    border: 2px solid black;
+    background-color: #bababa;
+    padding: 2px;
+}
