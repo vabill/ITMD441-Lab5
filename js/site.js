@@ -24,6 +24,9 @@
 
         if (isNaN(bill) || bill < 0) {
         errorMsg.style.display = "block";
+        taxOutput.value = "0.00";
+        tipConverted.value = "0.00";
+        finalTotal.value = "0.00";
         return;
         }
 
